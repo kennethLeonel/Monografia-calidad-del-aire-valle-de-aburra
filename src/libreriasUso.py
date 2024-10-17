@@ -13,3 +13,4 @@ from sklearn.neighbors import LocalOutlierFactor
 # ==============================================================================
 import warnings
 warnings.filterwarnings('ignore')
+from ydata_profiling import ProfileReport
