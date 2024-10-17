@@ -8,6 +8,7 @@ import holidays
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.neighbors import LocalOutlierFactor
+from sklearn.impute import KNNImputer
 
 # Configuración warnings
 # ==============================================================================
