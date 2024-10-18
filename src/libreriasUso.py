@@ -9,9 +9,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.neighbors import LocalOutlierFactor
 from sklearn.impute import KNNImputer
-
-# Configuración warnings
-# ==============================================================================
-import warnings
-warnings.filterwarnings('ignore')
-from ydata_profiling import ProfileReport
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import cross_val_score
+from sklearn.ensemble import RandomForestRegressor
+import joblib
