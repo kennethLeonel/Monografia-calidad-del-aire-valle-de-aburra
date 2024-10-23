@@ -1,0 +1,8 @@
+holidays
+matplotlib
+numpy
+pandas
+scikit_learn
+scipy
+seaborn
+ydata_profiling
